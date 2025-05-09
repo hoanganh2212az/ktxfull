@@ -22,7 +22,7 @@ import StudentCheckin from "./view/StudentCheckin";
 import StudentInfo from "./view/StudentInfo";
 import StudentList from "./view/StudentList";
 import FormAddContract from "./view/FormAddContract";
-import { Frame } from "./view/Frame/index.jsx";
+import { BillnPayment } from "./view/BillnPayment/index.jsx";
 import { PowerMonitoring } from "./view/PowerMonitoring/index.jsx";
 import { Reports } from "./view/Reports/index.jsx";
 
@@ -30,7 +30,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/dangnhap" replace />} />
+        <Route path="/" element={<Navigate to="/danhsachdondky" replace />} />
         {/* Dũng */}
         <Route path="/dangnhap" element={<Login />}></Route>
         <Route path="/quenmatkhau" element={<ForgotPassword />}></Route>
@@ -57,7 +57,7 @@ function App() {
         <Route path="/student-list" element={<StudentList />}></Route>
 
         {/* Hoàng Anh */}
-        <Route path="/invoice" element={<Frame />} />
+        <Route path="/invoice" element={<BillnPayment />} />
         <Route path="/power-monitoring" element={<PowerMonitoring />} />
         <Route path="/reports" element={<Reports />} />
       </Routes>

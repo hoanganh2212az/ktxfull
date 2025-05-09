@@ -5,6 +5,9 @@ export const menuConfig = {
     { label: "Danh sách hợp đồng", path: "/danhsachhopdong" },
     { label: "Danh sách phòng", path: "/dsphong" },
     { label: "Danh sách sinh viên", path: "/student-list" },
+    { label: "Thanh toán & Hoá đơn", path: "/invoice" },
+    { label: "Giám sát tiêu thụ điện", path: "/power-monitoring" },
+    { label: "Báo cáo & Thống kê", path: "/reports" },
   ],
   sinhvien: [
     { label: "Thông báo chung", path: "" },
